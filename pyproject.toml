@@ -7,7 +7,6 @@ authors = ["Franccesco Orozco <franccesco@codingdose.info>"]
 [tool.poetry.dependencies]
 python = "^3.6"
 requests = "^2.25.1"
-ipython = "^7.24.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
