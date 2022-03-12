@@ -24,7 +24,7 @@ class DNReporter:
             execution_time = self.execution_time()
         req_data = {
             "name": self.report_name,
-            "url": self.project_url,
+            "url": self.project_url if self.project_url else "Not Provided",
             "execution_time": str(execution_time),
             "status": status,
         }
