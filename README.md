@@ -21,7 +21,7 @@ Once the package is installed, you can create a new Deepnote project and then in
 ```python
 from dnreporter import DNReporter
 
-reporter = DNReporter('https://endpoint.com', 'report_name')
+reporter = DNReporter('https://endpoint.com', 'report_name', 'project_url')
 ```
 
 The initialization process will automatically override the usual halt process when an exception is encountered in any cell. If you want to disable the automatic override you can pass the `auto_override=False` argument, and then initialize it yourself:
